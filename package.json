@@ -1,0 +1,16 @@
+{
+  "name": "npm-notifier",
+  "version": "0.0.1",
+  "description": "Service to notify Slack channels when an NPM package is updated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "npm": "^2.13.1",
+    "superagent": "^1.2.0"
+  }
+}
