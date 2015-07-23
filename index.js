@@ -38,7 +38,6 @@ watchForVersionChange(process.env.NPM_PACKAGE_NAME, function(version) {
 
   request.post(process.env.NPM_SLACK_WEBHOOK)
     .send({
-      channel: '#botland',
       attachments: [{
         fallback: 'Package ' + process.env.NPM_PACKAGE_NAME + ' was updated to version ' + version + '.',
         text: 'Package <http://npmjs.com/' + process.env.NPM_PACKAGE_NAME + '|' + process.env.NPM_PACKAGE_NAME + '> was updated to version ' + version + '.',
