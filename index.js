@@ -1,3 +1,5 @@
+require('dotenv').load();
+
 var npm = require('npm');
 var request = require('superagent');
 var _ = require('lodash');

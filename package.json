@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^1.2.0",
     "lodash": "^3.10.0",
     "npm": "^2.13.1",
     "superagent": "^1.2.0"
